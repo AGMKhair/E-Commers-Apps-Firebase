@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food"
+    android:orientation="vertical"
+    tools:context="com.example.hasib.foodapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+        <!-- <info.hoang8f.widget.FButton
+            android:id="@+id/btSingUp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="@string/sing_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:buttonColor="#C62828"
+            android:shadowColor="#E57373"
+            app:shadowEnabled="true"
+            app:shadowHeight="4dp"
+
+            tools:ignore="RtlHardcoded" />-->
+
+        <Button
+            android:id="@+id/btSingUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="@string/sing_up"
+
+
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btsingIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:shadowColor="#E57373"
+            android:text="@string/sing_in" />
+
+
+        <!--<info.hoang8f.widget.FButton
+            android:id="@+id/btsingIn"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            app:buttonColor="#C62828"
+            app:shadowHeight="4dp"
+
+            android:shadowColor="#E57373"
+            android:text="@string/sing_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />-->
+    </LinearLayout>
+
+</LinearLayout>

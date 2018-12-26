@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/addyourAdress"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Change Password" />
+
+        <item
+            android:id="@+id/favouriteFood"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/chart"
+            android:icon="@drawable/ic_chat_bubble_outline_black_24dp"
+            android:title="Chart" />
+        <item
+            android:id="@+id/cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Cart" />
+        <item
+            android:id="@+id/order"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="Order" />
+        <item
+            android:id="@+id/suscrib"
+            android:icon="@drawable/ic_create_new_folder_black_24dp"
+            android:title="Order" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Exit" />
+    </group>
+
+
+
+</menu>
